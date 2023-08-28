@@ -99,9 +99,9 @@ ul{
     position: absolute;
     right: 5px;
     width: 91%;
-    /*height: 700px;*/
     margin-top: 5px;
     padding-top: 135px;
+    overflow: hidden;
 }
 .nav-div{
     position: fixed;
@@ -542,3 +542,47 @@ ul{
     
        
 }
+@media only screen and (max-width: 400px)
+{
+    .side-container{
+        width: 100vw;     
+    }
+    .side-content-list{
+        display: flex;
+        margin-top: 0 auto;
+        font-size: 14px;
+    }
+    .side-content-list li{
+        padding: 15px 15px;
+    }
+    .main{
+        width: 100vw;
+        padding-bottom: 50px;
+    }
+    .search-icon{
+        width: 23px;
+        height: 23px;
+        margin: 11px 0px 10px 60px;
+    }
+    .nav-icons{
+        margin: 0 0 0 45px;
+    }
+    .video-img{
+        width: 300px;
+        height: 230px;
+    }
+    .yt-body hr{
+        width: 310px;
+        margin-left: 40px;
+    }
+    .shorts-cross{
+        margin-left: 215px;
+    }
+    .shorts-img{
+        height: 250px;
+        width: 150px;
+    }
+    
+       
+}
+
